@@ -16,4 +16,13 @@ A video streaming company, Amazing Prime decided to sponsor a hackathon, where p
 * CSV Files: `movies_metadata.csv` and `ratings.csv`.
 * Python: Python v3.7.6.
 * jupyter notebook: ETL_movies.ipynb.
-* Dependencies: 
+* Dependencies: Pandas Library, numpy Library, regular expression Library.
+## Results
+* The function takes the Wikipedia JSON, the Kaggle metadata and MovieLens csv files and creates three separate DataFrames.
+* We filtered out the TV shows, consolidated the redundant data, removed the duplicates and formatted the Wikipedia data.
+* Again, we consolidated the redundant data, removed the duplicates, formatted and grouped the data.
+* The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.
+* finally the DataFrame was loaded in the Dasabase as two tables movies and ratings
+
+## Summary
+The ETL function created collects and cleans movie data from different sources (Wikipedia JSON and Kaggle and ratings csv files). It transforms and merges the data and loads it into two updatable PostgreSQL dataset tables ready to be used by the hackathon participants for their analysis.
