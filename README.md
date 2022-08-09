@@ -12,6 +12,8 @@ A video streaming company, Amazing Prime decided to sponsor a hackathon, where p
 * **Loading** data using PostgreSQL and pgAdmin to host final cleaned data set.
 ![image](https://user-images.githubusercontent.com/107584361/183774632-2712477c-0dfc-4f78-8287-58be6f1aed2b.png)
 ### Resources
-Data Sources:
-* Wikipedia web scrape **JSON file**
-* Kaggle data from **Kaggle.com** - two files: `movies_metadata.csv` and `ratings.csv`
+* Data Sources: JSON file from Wikipedia web, Kaggle data from Kaggle.com.
+* CSV Files: `movies_metadata.csv` and `ratings.csv`.
+* Python: Python v3.7.6.
+* jupyter notebook: ETL_movies.ipynb.
+* Dependencies: 
